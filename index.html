@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algorithm Visualization</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="array-container"></div>
+<div>
+    <label for="algorithm">Select Algorithm:</label>
+    <select id="algorithm">
+        <option value="bubble">Bubble Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="linear">Linear Search</option>
+        <option value="binary">Binary Search</option>
+    </select>
+</div>
+<button onclick="visualize()">Visualize</button>
+
+<div id="complexity-info"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
